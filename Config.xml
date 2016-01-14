@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright PrestaShop -->
+<theme version="1.0" name="The Box Version Two" directory="the_box_version_two">
+    <author name="Rolando Moreno" email="moreno.rbusiness@gmail.com" url="https://store.rolandomoreno.com"/>
+    <descriptions>
+        <description iso="en"></description>
+    </descriptions>
+    <variations>
+        <variation name="The Box Version Two" directory="the_box_version_two" responsive="1" default_left_column="0"
+                   default_right_column="0" product_per_page="8" from="1.6.1.2" to="1.6.1.2"/>
+    </variations>
+    <docs>
+        <doc name="documentation" path="doc/"/>
+    </docs>
+    <metas>
+        <meta meta_page="address" left="0" right="0"/>
+        <meta meta_page="addresses" left="0" right="0"/>
+        <meta meta_page="authentication" left="0" right="0"/>
+        <meta meta_page="best-sales" left="0" right="0"/>
+        <meta meta_page="cart" left="0" right="0"/>
+        <meta meta_page="category" left="0" right="0"/>
+        <meta meta_page="cms" left="0" right="0"/>
+        <meta meta_page="contact" left="0" right="0"/>
+        <meta meta_page="discount" left="0" right="0"/>
+        <meta meta_page="guest-tracking" left="0" right="0"/>
+        <meta meta_page="history" left="0" right="0"/>
+        <meta meta_page="identity" left="0" right="0"/>
+        <meta meta_page="index" left="0" right="0"/>
+        <meta meta_page="manufacturer" left="0" right="0"/>
+        <meta meta_page="module-bankwire-payment" left="0" right="0"/>
+        <meta meta_page="module-bankwire-validation" left="0" right="0"/>
+        <meta meta_page="module-blocknewsletter-verification" left="0" right="0"/>
+        <meta meta_page="module-blockwishlist-mywishlist" left="0" right="0"/>
+        <meta meta_page="module-blockwishlist-view" left="0" right="0"/>
+        <meta meta_page="module-cashondelivery-validation" left="0" right="0"/>
+        <meta meta_page="module-cheque-payment" left="0" right="0"/>
+        <meta meta_page="module-cheque-validation" left="0" right="0"/>
+        <meta meta_page="module-cronjobs-callback" left="0" right="0"/>
+        <meta meta_page="my-account" left="0" right="0"/>
+        <meta meta_page="new-products" left="0" right="0"/>
+        <meta meta_page="order" left="0" right="0"/>
+        <meta meta_page="order-confirmation" left="0" right="0"/>
+        <meta meta_page="order-follow" left="0" right="0"/>
+        <meta meta_page="order-opc" left="0" right="0"/>
+        <meta meta_page="order-slip" left="0" right="0"/>
+        <meta meta_page="pagenotfound" left="0" right="0"/>
+        <meta meta_page="password" left="0" right="0"/>
+        <meta meta_page="prices-drop" left="0" right="0"/>
+        <meta meta_page="product" left="0" right="0"/>
+        <meta meta_page="products-comparison" left="0" right="0"/>
+        <meta meta_page="search" left="0" right="0"/>
+        <meta meta_page="sitemap" left="0" right="0"/>
+        <meta meta_page="stores" left="0" right="0"/>
+        <meta meta_page="supplier" left="0" right="0"/>
+    </metas>
+    <modules>
+        <module action="install" name="cronjobs"/>
+        <module action="disable" name="blockadvertising"/>
+        <module action="disable" name="blockbanner"/>
+        <module action="disable" name="blockbestsellers"/>
+        <module action="disable" name="blockcart"/>
+        <module action="disable" name="blockcategories"/>
+        <module action="disable" name="blockcms"/>
+        <module action="disable" name="blockcmsinfo"/>
+        <module action="disable" name="blockcontact"/>
+        <module action="disable" name="blockcontactinfos"/>
+        <module action="disable" name="blockcurrencies"/>
+        <module action="disable" name="blockcustomerprivacy"/>
+        <module action="disable" name="blockfacebook"/>
+        <module action="disable" name="blocklanguages"/>
+        <module action="disable" name="blocklayered"/>
+        <module action="disable" name="blocklink"/>
+        <module action="disable" name="blockmanufacturer"/>
+        <module action="disable" name="blockmyaccount"/>
+        <module action="disable" name="blockmyaccountfooter"/>
+        <module action="disable" name="blocknewproducts"/>
+        <module action="disable" name="blocknewsletter"/>
+        <module action="disable" name="blockpaymentlogo"/>
+        <module action="disable" name="blockpermanentlinks"/>
+        <module action="disable" name="blockrss"/>
+        <module action="disable" name="blocksearch"/>
+        <module action="disable" name="blocksharefb"/>
+        <module action="disable" name="blocksocial"/>
+        <module action="disable" name="blockspecials"/>
+        <module action="disable" name="blockstore"/>
+        <module action="disable" name="blocksupplier"/>
+        <module action="disable" name="blocktags"/>
+        <module action="disable" name="blocktopmenu"/>
+        <module action="disable" name="blockuserinfo"/>
+        <module action="disable" name="blockviewed"/>
+        <module action="disable" name="blockwishlist"/>
+        <module action="disable" name="crossselling"/>
+        <module action="disable" name="dashactivity"/>
+        <module action="disable" name="dashtrends"/>
+        <module action="disable" name="dashgoals"/>
+        <module action="disable" name="dashproducts"/>
+        <module action="disable" name="homefeatured"/>
+        <module action="disable" name="homeslider"/>
+        <module action="disable" name="onboarding"/>
+        <module action="disable" name="productcomments"/>
+        <module action="disable" name="productpaymentlogos"/>
+        <module action="disable" name="productscategory"/>
+        <module action="disable" name="producttooltip"/>
+        <module action="disable" name="sendtoafriend"/>
+        <module action="disable" name="socialsharing"/>
+        <module action="disable" name="statsdata"/>
+        <module action="disable" name="themeconfigurator"/>
+        <module action="disable" name="trackingfront"/>
+        <module action="disable" name="vatnumber"/>
+        <hooks/>
+    </modules>
+    <images>
+        <image name="cart_default" width="80" height="80" products="true" categories="false" manufacturers="false"
+               suppliers="false" scenes="false"/>
+        <image name="small_default" width="98" height="98" products="true" categories="false" manufacturers="true"
+               suppliers="true" scenes="false"/>
+        <image name="medium_default" width="125" height="125" products="true" categories="true" manufacturers="true"
+               suppliers="true" scenes="false"/>
+        <image name="home_default" width="250" height="250" products="true" categories="false" manufacturers="false"
+               suppliers="false" scenes="false"/>
+        <image name="large_default" width="458" height="458" products="true" categories="false" manufacturers="true"
+               suppliers="true" scenes="false"/>
+        <image name="thickbox_default" width="800" height="800" products="true" categories="false" manufacturers="false"
+               suppliers="false" scenes="false"/>
+        <image name="category_default" width="870" height="217" products="false" categories="true" manufacturers="false"
+               suppliers="false" scenes="false"/>
+        <image name="scene_default" width="870" height="270" products="false" categories="false" manufacturers="false"
+               suppliers="false" scenes="true"/>
+        <image name="m_scene_default" width="161" height="58" products="false" categories="false" manufacturers="false"
+               suppliers="false" scenes="true"/>
+    </images>
+</theme>
